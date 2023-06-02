@@ -24,14 +24,14 @@ const Input = () => {
           name="metric"
           className=" text-lg text-white font-light hover:scale-105  "
         >
-          *C
+          °C
         </button>
         <p className="mx-1 text-lg text-white"> | </p>
         <button
           name="imperial"
           className=" text-white font-light text-lg hover:scale-105 "
         >
-          *F
+          °F
         </button>
       </div>
     </div>

@@ -5,9 +5,52 @@ const getWeatherData = (infoTeype, serarchParams) => {
   const url = new URL(Base_Url + "/" + infoTeype);
   url.search = new URLSearchParams({ ...serarchParams, appid: API_KEY });
 
+  console.log(url);
+
   return fetch(url)
     .then((res) => res.json())
     .then((data) => data);
 };
 
-export default getWeatherData;
+const formatCurrentWeather = (data) => {
+  const {
+    coord: { lat, lon },
+    main: { temp, feels_like, temp_min, temp_max, pressure, humidity },
+    name,
+    dt,
+    sys: { country, sunrise, sunset },
+    weather,
+    wind: { speed },
+  } = data;
+
+  const { main, deatils, icon } = weather[0];
+
+  return {
+    lat,
+    lon,
+    temp,
+    feels_like,
+    temp_min,
+    temp_max,
+    pressure,
+    humidity,
+    name,
+    dt,
+    country,
+    sunrise,
+    sunset,
+    deatils,
+    icon,
+    speed,
+  };
+};
+
+const getFormattedWeatherData = async (serarchParams) => {
+  const formattedCurrentWeather = await getWeatherData(
+    "weather",
+    serarchParams
+  ).then(formatCurrentWeather);
+  return formattedCurrentWeather;
+};
+
+export default getFormattedWeatherData;

@@ -11,7 +11,7 @@ const Forecast = ({ title }) => {
         <div className="flex flex-col items-center justify-center">
           <p className=" font-light text-sm">03:10PM</p>
           <img
-            src="http:openweathermap.org/img/wn/01d@2x.png"
+            src="http://openweathermap.org/img/wn/01d@2x.png"
             alt=""
             className="w-12 my-1"
           />
@@ -20,7 +20,7 @@ const Forecast = ({ title }) => {
         <div className="flex flex-col items-center justify-center">
           <p className=" font-light text-sm">03:10PM</p>
           <img
-            src="http:openweathermap.org/img/wn/01d@2x.png"
+            src="http://openweathermap.org/img/wn/01d@2x.png"
             alt=""
             className="w-12 my-1"
           />
@@ -29,7 +29,7 @@ const Forecast = ({ title }) => {
         <div className="flex flex-col items-center justify-center">
           <p className=" font-light text-sm">03:10PM</p>
           <img
-            src="http:openweathermap.org/img/wn/01d@2x.png"
+            src="http://openweathermap.org/img/wn/01d@2x.png"
             alt=""
             className="w-12 my-1"
           />
@@ -38,7 +38,7 @@ const Forecast = ({ title }) => {
         <div className="flex flex-col items-center justify-center">
           <p className=" font-light text-sm">03:10PM</p>
           <img
-            src="http:openweathermap.org/img/wn/01d@2x.png"
+            src="http://openweathermap.org/img/wn/01d@2x.png"
             alt=""
             className="w-12 my-1"
           />

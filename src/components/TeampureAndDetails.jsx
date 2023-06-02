@@ -16,7 +16,7 @@ const TeampureAndDetails = () => {
       <div className="flex flex-row items-center justify-between text-white py-3">
         {/* <img src={UilSun} alt="" /> */}
         <img
-          src="http://openweathermap.org/img/wn/01d@2x/png"
+          src="http://openweathermap.org/img/wn/01d@2x.png"
           alt=""
           className="w-20"
         />
@@ -47,7 +47,7 @@ const TeampureAndDetails = () => {
         <p className="font-light">|</p>
         <UilSunset />
         <p>
-          UilSunset: <span className=" font-light ">05:35AM</span>{" "}
+          Sunset: <span className=" font-light ">05:35AM</span>{" "}
         </p>
         <p className="font-light">|</p>
         <UilSun />
