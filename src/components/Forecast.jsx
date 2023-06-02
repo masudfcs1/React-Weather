@@ -15,7 +15,7 @@ const Forecast = ({ title }) => {
             alt=""
             className="w-12 my-1"
           />
-          <p className=" font-medium">22*</p>
+          <p className=" font-medium">°22</p>
         </div>
         <div className="flex flex-col items-center justify-center">
           <p className=" font-light text-sm">03:10PM</p>
@@ -24,7 +24,7 @@ const Forecast = ({ title }) => {
             alt=""
             className="w-12 my-1"
           />
-          <p className=" font-medium">22*</p>
+          <p className=" font-medium">°22</p>
         </div>
         <div className="flex flex-col items-center justify-center">
           <p className=" font-light text-sm">03:10PM</p>
@@ -33,7 +33,7 @@ const Forecast = ({ title }) => {
             alt=""
             className="w-12 my-1"
           />
-          <p className=" font-medium">22*</p>
+          <p className=" font-medium">°22</p>
         </div>
         <div className="flex flex-col items-center justify-center">
           <p className=" font-light text-sm">03:10PM</p>
@@ -42,7 +42,7 @@ const Forecast = ({ title }) => {
             alt=""
             className="w-12 my-1"
           />
-          <p className=" font-medium">22*</p>
+          <p className=" font-medium">°22</p>
         </div>
       </div>
     </div>

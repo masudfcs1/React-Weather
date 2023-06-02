@@ -20,12 +20,12 @@ const TeampureAndDetails = () => {
           alt=""
           className="w-20"
         />
-        <p className="text-5xl">*34</p>
+        <p className="text-5xl">°34</p>
         <div className="flex flex-col space-y-2">
           <div className="flex font-light text-sm items-center justify-center">
             <UilTemperature size={18} className="mr-1" />
             Real fell:
-            <span className="font-medium ml-1">*32</span>
+            <span className="font-medium ml-1">°32</span>
           </div>
           <div className="flex font-light text-sm items-center justify-center">
             <UilTear size={18} className="mr-1" />
@@ -52,12 +52,12 @@ const TeampureAndDetails = () => {
         <p className="font-light">|</p>
         <UilSun />
         <p>
-          High: <span className=" font-light ">*40</span>{" "}
+          High: <span className=" font-light ">°40</span>{" "}
         </p>
         <p className="font-light">|</p>
         <UilSun />
         <p>
-          Low: <span className=" font-light ">*40</span>{" "}
+          Low: <span className=" font-light ">°40</span>{" "}
         </p>
       </div>
     </div>
